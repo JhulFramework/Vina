@@ -1,0 +1,77 @@
+
+body
+{
+	line-height: 1;
+}
+
+body, div, html
+{
+	padding: 0;
+	margin: 0;
+
+}
+
+html, body
+{
+	min-height:100%;
+}
+
+body, div, pre
+{
+
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	word-wrap: break-word;
+
+}
+
+img
+{
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+pre
+{
+
+	white-space: pre-wrap;       /* css-3 */
+	 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	 white-space: -pre-wrap;      /* Opera 4-6 */
+	 white-space: -o-pre-wrap;    /* Opera 7 */
+	 word-wrap: break-word;
+}
+
+
+
+body, div, span
+{
+	word-wrap: break-word;
+}
+
+a
+{
+	text-decoration: none;
+	color:#6be;
+
+}
+
+
+[class^="icon-"]::before, [class*=" icon-"]::before
+{
+	margin: 0;
+}
+
+
+p
+{
+	padding: 0;
+	margin:0;
+}
+
+i
+{
+	font-family: Arial;
+}

@@ -1,0 +1,99 @@
+.name
+{
+	color: #e0e6eb;
+	z-index: 4;
+	background: transparent;
+	opacity: 1;
+}
+
+
+.social a
+{
+	z-index: 4;
+	color: #888;
+	border-color: #666;
+
+
+}
+
+.social a:hover
+{
+
+background: #234;
+	-webkit-box-shadow: 0 0 6px 1px #000000;
+	-moz-box-shadow: 0 0 6px 1px #000000;
+	box-shadow: 0 0 6px 1px #000000
+	color:#fff;
+	border-style: dashed;
+
+}
+
+.social a.gplus:hover
+{
+	border-color: #dd4b43;
+	background: #dd4b39;
+	color: #fff;
+
+}
+
+
+.social a.facebook:hover
+{
+
+	border-color: #3b5998;
+	background:#3b5998;
+	color: #fff;
+}
+
+.social a.twitter:hover
+{
+	background: #00aced;
+	border-color: #00aced;
+	color: #fff;
+}
+
+.social a.instagram:hover
+{
+
+	background: #C32AA3;
+	border-color: #C32AA3;
+	color: #fff;
+}
+
+.social a.youtube:hover
+{
+
+	background:#FF0000;
+	border-color:#FF0000;
+	color: #fff;
+}
+
+.social a.pinterest:hover
+{
+
+	background:#BD081C;
+	border-color:#BD081C;
+	color: #fff;
+}
+
+.social a.reddit:hover
+{
+	background:#FF5700;
+	border-color:#FF5700;
+	color: #fff;
+}
+
+.social a.github:hover
+{
+	background:#333;
+	border-color:#333;
+	color: #fff;
+}
+
+
+.social a.website:hover
+{
+	background:#FF0A2D;
+	border-color: #FF0A2D;
+	color: #fff;
+}

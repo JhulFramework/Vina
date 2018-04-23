@@ -1,0 +1,30 @@
+.r2c
+{
+	display: flex;
+	flex-grow: 1;
+	height: 100%;
+	align-items: center;
+	flex-wrap: wrap;
+
+
+}
+
+.col_left
+{
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+
+
+}
+
+
+.col_right
+{
+
+	justify-content: center;
+	display: flex;
+	flex-grow: 1;
+	padding: 12px;
+	align-items: center;
+}

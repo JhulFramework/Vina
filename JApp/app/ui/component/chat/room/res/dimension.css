@@ -1,0 +1,110 @@
+
+.room
+{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.room .r2c
+{
+	display: flex;
+	flex-grow: 1;
+	flex-wrap: wrap;
+}
+
+.room .right
+{
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.room .message_list
+{
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+
+}
+
+.room .message .icon
+{
+
+}
+
+.room .message
+{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin: 6px 0;
+
+}
+
+.room .message .top
+{
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+	padding: 12px;
+	padding-bottom: 6px;
+	font-size: 14px;
+	font-family: Josefin Sans, Yantramanav;
+
+
+}
+
+.room .message .sender
+{
+	flex-grow: 1;
+	padding-left: 16px;
+	font-size: 14px;
+
+
+}
+
+
+.room .message .content
+{
+	display: flex;
+	flex-grow: 1;
+	padding: 12px;
+	padding-top: 6px;
+	color: #fff;
+
+	font-weight: ;
+
+}
+
+.room .message .pre
+{
+	word-wrap: break-word;
+}
+
+
+@media screen and (min-width: 721px)
+{
+	.room .right
+	{
+		top: 0;
+		height: 100%;
+		min-width: 40%;
+		align-items: center;
+		position: fixed;
+		right: 0;
+		border-left: 1px dashed #444;
+	}
+
+	.room .message_list
+	{
+		max-width:60%;
+	}
+
+	form
+	{
+		padding-left:36px;
+		padding-right:36px;
+	}
+}

@@ -1,0 +1,68 @@
+.{{menu_id}}
+{
+	height: 100%;
+	z-index: 1;
+	right: 0;
+	top:0;
+	background:#242424;
+	position: fixed;
+	overflow-x: hidden;
+	width: {{menu_width}};
+
+}
+
+.{{menu_id}} .item
+{
+display: flex;
+flex-grow: 1;
+
+}
+
+.{{menu_id}} a
+{
+	display: block;
+	width: 100%;
+	color: #aaa;
+	padding: 12px 0;
+	text-decoration: none;
+	text-align: left;
+
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-family: {{menu_item_font}};
+	padding-left: 24px;
+	font-weight: bold;
+
+}
+
+.{{menu_id}} .header
+{
+	padding: 12px 0;
+	color: #fff;
+	width: 100%;
+	display: block;
+	font-family: Poiret One;
+
+}
+
+
+.{{menu_id}} .header .close
+{
+	padding: 24px;
+	width: 100%;
+	display: block;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: {{menu_item_font}};
+
+
+}
+
+.{{menu_id}} a .active, .{{menu_id}} a:hover
+{
+	background: #224466;
+	color:#fff
+
+}

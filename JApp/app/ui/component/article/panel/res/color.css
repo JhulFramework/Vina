@@ -1,0 +1,41 @@
+
+.article_panel .read a
+{
+	background: #c0c6cb;
+	color: #20262b;
+}
+
+.article_panel .read a:hover
+{
+	background: #e0e6eb;
+	color: #10161b;
+
+-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+
+.article_panel button
+{
+	color: #80868b;
+}
+
+
+.article_panel button:hover
+{
+	background: #20262b;
+	color:#fff;
+	cursor: pointer;
+}
+
+.article_panel .plus_active
+{
+	color: #2e6;
+	font-weight: bold;
+}
+
+.article_panel .minus_active
+{
+	color: #e62;
+	font-weight: bold;
+}

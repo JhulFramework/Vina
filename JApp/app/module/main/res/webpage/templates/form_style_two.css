@@ -1,0 +1,73 @@
+.form_style_two
+{
+	width:100%;
+	
+	text-align:center;
+	min-width:280px;
+	background:#20262f;
+}
+
+.form_style_two form
+{
+	
+	min-width:280px;
+	background:green;
+	margin:auto;
+	background:#20262f;
+	padding:24px 0;
+}
+
+.form_style_two .title
+{
+	display:inline-block;
+	padding:12px 12px 12px 24px;
+	color:#c0c6cf;
+	font-family:"Poiret One";
+	
+	font-size:24px;
+	letter-spacing: 1px;
+}
+
+.form_style_two .title_container
+{
+	background:#30363f;
+	text-align:left;
+}
+
+.form_style_two input
+{
+	padding:6px 0;
+	border:none;
+	border-bottom:1px solid #50565f;
+	background:#20262f;
+	width: 95%;
+	max-width:240px;
+	letter-spacing:1px;
+	font-family:"Poiret One";
+	font-weight:bold;
+	
+	
+}
+
+.form_style_two .field_container
+{
+	padding:12px 0;
+	
+	display:inline-block;
+	
+}
+
+.form_style_two label
+{
+	padding: 6px 0;
+	font-family:"Poiret One";
+	letter-spacing:1px;
+	font-weight:bold;
+	display:block;
+	text-align:left;
+	width:240px;
+	color:#90969f;
+}
+
+
+

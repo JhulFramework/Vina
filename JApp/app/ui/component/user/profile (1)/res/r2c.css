@@ -1,0 +1,195 @@
+.r2c
+{
+	display: flex;
+
+	align-items: center;;
+	height: 100%;
+	flex-grow: 1;
+	flex-basis: 0;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.col_left
+{
+
+display: flex;
+
+justify-content: center;
+-webkit-justify-content: center;
+max-width: 100%;
+max-height: 100% ;
+overflow:hidden;
+
+	height: 100vh;
+
+align-items: center;
+
+}
+
+img
+{
+	max-width:100%
+	max-height:100vh;
+	max-width:100%
+
+}
+
+.col_right
+{
+
+display: flex;
+
+min-width: 240px;
+
+padding: 0 3%;
+
+height: 100vh;
+align-items: center;
+
+flex-grow: 1;
+justify-content: center;
+-webkit-justify-content: center;
+
+
+}
+
+
+@media screen and (min-width: 721px)
+{
+	.col_left
+	{
+		width: 50%;
+	}
+
+}
+
+
+@media screen and (max-width: 720px)
+{
+
+	.col_left
+	{
+		justify-content: left;
+		-webkit-justify-content: left;
+		padding: 0;
+		margin: 0;
+		align-items: center;
+
+	}
+
+
+	.col_left img{ transform:translateX(-50%); }
+
+	.col_right
+	{
+
+		width: 100%;
+		position: absolute;
+		justify-content: center;
+		-webkit-justify-content: center;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		z-index: 2;
+	}
+}
+
+._data
+{
+	z-index: 4;
+	background: tranparent;
+	display: flex;
+	justify-content:space-around;
+flex-direction: column;
+
+
+
+}
+
+
+
+.home a:hover
+{
+	background: #C70044;
+}
+
+.home a
+{
+	padding: 6px;
+	display: flex;
+	top: 0;
+	right: 0;
+	position: fixed;
+	background: #456;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 50%;
+	margin: 16px;
+z-index: 8;
+	-webkit-box-shadow: 0 0 6px 1px #000000;
+	-moz-box-shadow: 0 0 6px 1px #000000;
+	box-shadow: 0 0 6px 1px #000000;
+}
+
+.home a i
+{
+	display: flex;
+	height: 26px;
+	width: 26px;
+	font-size: 20px;
+align-items: center;
+
+	justify-content: center;
+}
+
+.social
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.social a
+{
+	display: flex;
+	font-size: 18px;
+
+	border: 1px inset;
+	border-radius: 50%;
+
+
+padding: 4px;
+	height: 24px;
+	width: 24px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.social a+a
+{
+
+	margin-left:12px;
+
+}
+
+.tagline_container
+{
+	padding: 16px 0;
+
+}
+
+.name
+{
+padding-left: 12px;
+}

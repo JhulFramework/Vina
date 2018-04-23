@@ -1,0 +1,45 @@
+.tagline
+{
+	display: flex;
+	flex-direction: column;
+	max-width: 480px;
+	padding: 12px;
+}
+
+.tagline .icon
+{
+	font-size: 30px;
+	color: yellow;
+
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+.tagline .icon i
+{
+	position: relative;
+	left:-5px;
+}
+
+.tagline .content pre
+{
+	word-wrap: break-word;
+	border: 1px soild blue;
+}
+
+.tagline .content
+{
+	padding: 12px 0;
+	color:  #ccc;
+	max-width: 100%;
+	word-wrap: break-word;
+}
+
+
+
+.tagline .author
+{
+	display: flex;
+
+}

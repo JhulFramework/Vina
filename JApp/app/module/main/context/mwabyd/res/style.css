@@ -1,0 +1,72 @@
+
+.game
+{
+	font-size:15px;
+}
+
+.game strong
+{
+	font-size: 24px;
+	color: #ccddff;
+}
+
+.game .label
+{
+	font-weight: bold;
+	color: #999;
+	width:90px;
+
+	display: inline-block;
+
+}
+
+.game .c
+{
+	padding: 3px 2%;
+}
+
+.game
+{
+padding:2% 0;
+background: #222;
+border-bottom:1px dashed #555;
+}
+
+.game .title
+{
+display:block;
+width:98%;
+padding:1%;
+}
+
+.game .elements
+{
+	color: #ee4;
+}
+
+.game .gameplay
+{
+color: #eee;
+}
+
+.game .f
+{
+	padding: 3% 2% 2% 2%;
+
+}
+
+
+.game .f a:hover
+{
+	background:#226688;
+}
+
+.game .f a
+{
+	text-decoration: none;
+	background: #224858;
+	color: #def;
+	padding: 12px 14px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}

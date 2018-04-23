@@ -1,0 +1,31 @@
+.room
+{
+	color : #aaa;
+}
+
+.room .name
+{
+	color : #e0e6ef;
+}
+
+.room .icon
+{
+	color:yellow;
+}
+
+.room a
+{
+	color: #888;
+	border-color: #666;
+}
+
+.room a:hover
+{
+	color: #fff;
+	background:#FF0A48;
+	border-color: #FF0A48;
+	border: 1px solid #ff0A48;
+	-webkit-box-shadow: 0 0 6px 1px #000000;
+	-moz-box-shadow: 0 0 6px 1px #000000;
+	box-shadow: 0 0 6px 1px #000000
+}

@@ -1,0 +1,19 @@
+.{{superClass}}
+{
+
+	min-width: 60px;
+	display: flex;
+
+}
+
+.{{superClass}} a
+{
+
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+
+
+	padding-left :6px;
+	padding-right :6px;
+}

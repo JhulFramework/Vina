@@ -1,0 +1,84 @@
+.roomlist
+{
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+.room
+{
+	display: flex;
+
+	align-items: center;
+
+	margin-top: 12px;
+	margin-bottom: 12px;
+
+	width: 240px;
+	justify-content: space-between;
+	border: 1px dashed #000;
+	padding: 12px;
+	max-width: 100%;
+
+}
+
+.room .name
+{
+	display: flex;
+	flex-grow: 1;
+	font-size: 20px;
+	padding-left: 12px;
+	align-items: center;
+	line-height: 20px;
+	letter-spacing: 1px;
+
+}
+
+.room .pop
+{
+	font-size: 16px;
+	padding: 0 6px;
+}
+
+.room a
+{
+	padding: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px inset;
+	border-radius: 50%;
+
+}
+
+
+.room a i
+{
+	display: flex;
+	align-self: center;
+
+	height: 16px;
+	width: 16px;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.rules
+{
+	display: block;
+	text-align: left;
+	padding: 24px 12px;
+}
+
+
+.room .icon
+{
+	font-size: 30px;
+	display: flex;
+	align-items: stretch;
+}

@@ -1,0 +1,90 @@
+body
+{
+	background:#242628;
+	color:#aaa;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+#nav_bar
+{
+	background: #242628;
+}
+
+#nav_bar a.a
+{
+	color: #ddd;
+	border-bottom: 4px solid #242628;
+}
+
+
+#nav_bar a.a:hover
+{
+	color: #fff;
+	border-bottom: 4px solid #fff;
+}
+
+
+#nav_bar a.a.active
+{
+	color: #fff;
+	border-bottom: 4px solid #fff;
+}
+
+#nav_bar a.logo
+{
+	color: #aaa;
+	border-bottom: 4px solid #242628;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+
+#nav_bar a.logo:hover
+{
+	color: #fff;
+	font-weight: bold;
+}
+
+
+.footer
+{
+	margin-top: 24px;
+	min-height:20px;
+	line-height:20px;
+	background: #067;
+	padding: 6px 0;
+	color:#4cd;
+	font-size:11px;
+}
+
+
+.container_blue
+{
+	background:#145;
+	color: #ddd;
+}
+
+.container_blue .title
+{
+	font-weight: bold;
+}
+
+.container_blue .uk-card-default
+{
+	background:#003d5d;
+	color: #ddd;
+}
+
+.container_blue .uk-card-header, .container_blue .uk-card-footer
+{
+	border-color: #024;
+}
