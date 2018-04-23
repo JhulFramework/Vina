@@ -19,7 +19,7 @@ createJApp();
 
 ### Example
 ```php
-<?php require_once( __DIR__.'/bootJApp.php' );
+require_once( __DIR__.'/bootJApp.php' );
 
 $view = new \Jhul\Core\Vina\View\Element('sample');
 
@@ -39,7 +39,7 @@ echo $view->embed();
 ### OUTPUT
 ![html](screenshot.png?raw=true "php gui screenshot")
 
-###API
+### API
 ```php
 
 //CALL AFTER COMPILING
