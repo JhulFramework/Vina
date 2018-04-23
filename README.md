@@ -1,14 +1,13 @@
 ### WEB GUI Generator
 Vina is a PHP library for WEB GUI(HTML, CSS, JAVASCRIPT) Generation. It is based on css flex.
 
-### Requirement
 
+### Requirement
  - PHP Version >= 5.6
  - JApp/\_data directory must be writable by PHP
 
 
 ### Including in your project
-
 - Clone or download this repository
 - Add the following code
 
@@ -16,6 +15,7 @@ Vina is a PHP library for WEB GUI(HTML, CSS, JAVASCRIPT) Generation. It is based
 require_once( '/path/to/vina/bootJApp.php' );
 createJApp();
 ```
+
 
 ### Example
 ```php
@@ -36,12 +36,14 @@ $view->compile(); //IMPORTANT
 
 echo $view->embed();
 ```
+
+
 ### OUTPUT
 ![html](screenshot.png?raw=true "php gui screenshot")
 
+
 ### API
 ```php
-
 //CALL AFTER COMPILING
 
 //compiled content Including style script and html
@@ -63,8 +65,8 @@ $view->compiledStyle();
 
 //returns compiled compiled javascript
 $view->compiledScript();
-
 ```
+
 
 ### Note
 - This libray can generate forms, templates but documentation might take time.
