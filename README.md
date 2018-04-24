@@ -71,7 +71,7 @@ $view->border()->setStyleSolid()->setwidth(2)->setColor('#666');
 
 ### HTML Link
 ```php
-$view->setURL( $url ) ; //generated html will nbe a link
+$view->setURL( $url ) ; //generated html will be a link
 ```
 
 
@@ -118,7 +118,25 @@ $view->setPaddingV(12);
 //horizontal padding
 $view->setPaddingH(12);
 
+$view->growWidth(12);
+$view->growHeight(12);
+
+$view->setWidth(100);//100px
+$view->setHeight(100);
+
 $view->setFontFamily(12);
+```
+
+
+
+### Style Unit
+```php
+$view->setWidth(100);//100px
+$view->setWidth('100px');//100px
+
+$view->setWidth('100%');//100%
+
+$view->setWidth('100em');//100em
 ```
 
 
