@@ -75,11 +75,9 @@ $view->setURL( $url ) ; //generated html will be a link
 ```
 
 
-### API
+### API (call after compile)
 ```php
-//CALL AFTER COMPILING
-
-//compiled content Including style script and html
+// returns compiled content Including style script and html
 // browser will render it
 $view->embed();
 
@@ -102,7 +100,7 @@ $view->compiledScript();
 
 
 
-### STYLING API
+### STYLING API(call before compile)
 ```php
 $view->setColor('#111');//font color
 
