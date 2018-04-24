@@ -2,9 +2,11 @@
 Vina is a PHP library for WEB GUI(HTML, CSS, JAVASCRIPT) Generation. It is based on css flex.
 
 
+
 ### Requirement
  - PHP Version >= 5.6
  - JApp/\_data directory must be writable by PHP
+
 
 
 ### Including in your project
@@ -15,6 +17,7 @@ Vina is a PHP library for WEB GUI(HTML, CSS, JAVASCRIPT) Generation. It is based
 require_once( '/path/to/vina/bootJApp.php' );
 createJApp();
 ```
+
 
 
 ### Example
@@ -36,8 +39,40 @@ echo $view->embed();
 ```
 
 
+
 ### OUTPUT
 ![html](screenshot.png?raw=true "php gui screenshot")
+
+
+
+### Media Query
+```php
+//for screen width less than 480px
+$view->onMaxScreenWidth(480)->setColor('#408');
+
+//for screen width larger than 480px
+$view->onMinScreenWidth(481)->setColor( '#242424' );
+```
+
+
+
+### Hover Effect
+```php
+$view->onHover()->setColor('#999');
+```
+
+
+
+### Border
+```php
+$view->border()->setStyleSolid()->setwidth(2)->setColor('#666');
+```
+
+
+### HTML Link
+```php
+$view->setURL( $url ) ; //generated html will nbe a link
+```
 
 
 ### API
@@ -66,6 +101,29 @@ $view->compiledScript();
 ```
 
 
+
+### STYLING API
+```php
+$view->setColor('#111');//font color
+
+$view->setBackground('#111');
+
+$view->setFontSize('#111');
+
+$view->setPadding(12);
+
+//vertical padding
+$view->setPaddingV(12);
+
+//horizontal padding
+$view->setPaddingH(12);
+
+$view->setFontFamily(12);
+```
+
+
+
 ### Note
 - This libray can generate forms, templates but documentation might take time.
 - More example are available inside "example" directory
+- You dont need to use this code in you production server, copy generated output and paste it in your view template

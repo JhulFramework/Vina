@@ -1,6 +1,4 @@
-<?php require_once( dirname(dirname(__DIR__)).'/JApp/include_me.php' ); createJApp(__DIR__);
-
-
+<?php require_once( dirname(dirname(__DIR__)).'/bootJApp.php' );
 
 
 $item = new \Element('sample');
