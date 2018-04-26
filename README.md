@@ -5,7 +5,7 @@ Vina is a PHP library for WEB GUI(HTML, CSS, JAVASCRIPT) Generation. It is based
 
 ### Requirement
  - PHP Version >= 5.6
- - JApp/\_data directory must be writable by PHP
+ - Vina/\_data directory must be writable by PHP
 
 
 
@@ -14,7 +14,7 @@ Vina is a PHP library for WEB GUI(HTML, CSS, JAVASCRIPT) Generation. It is based
 - Add the following code
 
 ```php
-require_once( '/path/to/vina/bootJApp.php' );
+require_once( '/path/to/vina/bootVina.php' );
 createJApp();
 ```
 
