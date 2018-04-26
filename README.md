@@ -104,9 +104,9 @@ $view->compiledScript();
 ```php
 $view->setColor('#111');//font color
 
-$view->setBackground('#111');
+$view->setBackground('#aaa');
 
-$view->setFontSize('#111');
+$view->setFontSize(20);//20px
 
 $view->setPadding(12);
 
@@ -116,13 +116,25 @@ $view->setPaddingV(12);
 //horizontal padding
 $view->setPaddingH(12);
 
-$view->growWidth(12);
-$view->growHeight(12);
+//fill remaining space
+$view->growWidth();
+$view->growHeight();
 
 $view->setWidth(100);//100px
 $view->setHeight(100);
 
 $view->setFontFamily(12);
+
+$view->centerX();
+$view->centerY();
+
+//align childrens in row
+$view->setOrientationVertical();
+$view->enableWrap();
+
+//align childrens in column
+$view->setOrientationHorizontal();
+
 ```
 
 
@@ -140,6 +152,7 @@ $view->setWidth('100em');//100em
 
 
 ### Note
+- If you find this project useful, please give it a star it will motiavte me.
 - This libray can generate forms, templates but documentation might take time.
 - More example are available inside "example" directory
 - You dont need to use this code in you production server, copy generated output and paste it in your view template
