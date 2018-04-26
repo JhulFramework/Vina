@@ -125,7 +125,10 @@ $view->setHeight(100);
 
 $view->setFontFamily(12);
 
+//center content horizontaly
 $view->centerX();
+
+//center content verticaly
 $view->centerY();
 
 //align childrens in row
