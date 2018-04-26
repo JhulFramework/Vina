@@ -1,4 +1,4 @@
-<?php require_once( dirname(dirname(__DIR__)).'/bootJApp.php' );
+<?php require_once( dirname(dirname(__DIR__)).'/bootVina.php' );
 
 
 

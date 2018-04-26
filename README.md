@@ -155,7 +155,7 @@ $view->setWidth('100em');//100em
 
 
 ### Note
-- If you find this project useful, please give it a star it will motiavte me.
+- If you find this project useful, please give it a star it will motivate me.
 - This libray can generate forms, templates but documentation might take time.
 - More example are available inside "example" directory
 - You dont need to use this code in you production server, copy generated output and paste it in your view template

@@ -1,6 +1,5 @@
 <?php require_once( __DIR__.'/jhul/autoloader.php' );
 
-//require_once( __DIR__.'/composer/vendor/autoload.php' );
 
 defined('JHUL_IF_ENABLE_DEBUG') or define( 'JHUL_IF_ENABLE_DEBUG', TRUE );
 
